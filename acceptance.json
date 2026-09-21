@@ -1,0 +1,9 @@
+{
+  "jsp_id": "JSP-000385",
+  "catalog_url": "https://github.com/TheJustinSunPrize/awards/blob/main/problems/catalog-0301-0400.md#JSP-000385",
+  "original_question_en": "Can all natural numbers be permuted so that every adjacent pair has prime sum?",
+  "required_theorems": [
+    "adjacent_prime_sum_permutation"
+  ],
+  "notes": "Full infinite permutation; finite n\u2264N witnesses alone are not prize_ready."
+}
