@@ -43,4 +43,6 @@ theorem adjacent_prime_sum_permutation :
   rw [hsum]
   exact ha ((n : ℕ) - 1)
 
+#print axioms JSP385.adjacent_prime_sum_permutation
+
 end JSP385
