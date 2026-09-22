@@ -29,10 +29,9 @@ theorem adjacent_prime_sum_permutation :
       ∀ n : PosNat, Nat.Prime ((f n).1 + (f (posSucc n)).1) := by
   obtain ⟨a, ha⟩ := Erdos473.erdos_473
   refine ⟨Equiv.pnatEquivNat.trans a, fun n => ?_⟩
-  have hn : 0 < (n : ℕ) := n.prop
+  have hn : 1 ≤ (n : ℕ) := n.prop
   have h := ha ((n : ℕ) - 1)
-  have e : (n : ℕ) - 1 + 1 = (n : ℕ) := by omega
-  rw [e] at h
+  rw [Nat.sub_add_cancel hn] at h
   exact h
 
 #print axioms JSP385.adjacent_prime_sum_permutation
