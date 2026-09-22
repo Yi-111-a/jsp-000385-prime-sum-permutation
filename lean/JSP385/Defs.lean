@@ -1,5 +1,3 @@
-import Mathlib
-
 /-!
 # JSP-000385 definitions (scaffold)
 -/

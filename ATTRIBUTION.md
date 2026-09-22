@@ -7,7 +7,14 @@
 
 ## Mathematical solution (literature)
 
-Erdős–Graham ErGr80 (existence of adjacent-prime-sum permutation of ℕ)
+Erdős–Graham ErGr80 (existence of adjacent-prime-sum permutation of ℕ);
+informal solution: A. M. Odlyzko.
+
+## Upstream formalization
+
+The vendored `ErdosProblems/Erdos473*` sources adapt the Lean proof from
+https://github.com/plby/lean-proofs (formal authors: OpenAI Codex, GPT-5.6
+Sol), Apache-2.0 licensed; see file headers in `lean/ErdosProblems/`.
 
 ## Claim policy
 

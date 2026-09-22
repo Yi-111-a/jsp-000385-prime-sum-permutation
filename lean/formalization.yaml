@@ -1,0 +1,17 @@
+jsp_id: JSP-000385
+title: "Can all natural numbers be permuted so that every adjacent pair has prime sum?"
+area: number_theory
+lean_toolchain: leanprover/lean4:v4.33.0
+mathlib: v4.33.0
+headline_theorems:
+  - adjacent_prime_sum_permutation
+source:
+  catalog: "https://github.com/TheJustinSunPrize/awards/blob/main/problems/catalog-0301-0400.md#JSP-000385"
+  resolution: "Erdős–Graham (ErGr80); construction due to A. M. Odlyzko (Erdős Problem 473)"
+vendored_proof:
+  module: ErdosProblems.Erdos473
+  upstream: "https://github.com/plby/lean-proofs/blob/main/ErdosProblems/Erdos473.md"
+  license: Apache-2.0
+operators:
+  - Yi-111-a
+build: lake build

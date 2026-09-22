@@ -3,7 +3,7 @@
 ## Headline target
 
 - Required theorem: `adjacent_prime_sum_permutation`
-- Status at scaffold: declaration present with `sorry`.
+- Status: fully proved (0 `sorry`/`admit`); see `lean/JSP385/Main.lean`.
 
 ## What the headline covers
 
